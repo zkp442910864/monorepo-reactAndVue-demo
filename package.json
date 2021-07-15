@@ -10,6 +10,16 @@
             "projects/*"
         ],
         "nohoist": [
+			"**/react/**",
+			"**react**",
+			"**/react-dom/**",
+			"**react-dom**",
+			"**/vue/**",
+			"**vue**",
+			"**/@types/**",
+			"**/umi/**",
+			"**/umi",
+
             "**/common-utils/**",
             "**/components-react/**",
             "**/components-vue/**",

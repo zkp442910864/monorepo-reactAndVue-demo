@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 
     publicPath: './',
-    lintOnSave: true,
+    lintOnSave: false,
 
     css: {
         // 是否提取css生成单独的文件 默认 true
