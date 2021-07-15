@@ -1,0 +1,19 @@
+{
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "workspaces": {
+        "packages": [
+            "packages/*",
+            "projects/*"
+        ],
+        "nohoist": [
+            "**/common-utils/**",
+            "**/components-react/**",
+            "**/components-vue/**",
+            "**/vue-pack5/**"
+        ]
+    }
+}

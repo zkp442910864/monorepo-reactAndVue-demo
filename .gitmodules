@@ -1,0 +1,3 @@
+[submodule "packages/common-utils"]
+	path = packages/common-utils
+	url = https://github.com/zkp442910864/common-utils.git

@@ -1,0 +1,6 @@
+{
+    "MyCheckbox": {
+        "attributes": ["falseValue", "trueValue"],
+		"description": "基于antd table 二次封装的 checkbox"
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "antd",
+        "iobj",
+        "ts",
+        "vetur"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "pattern": "./packages/*/"
+        },
+        {
+            "pattern": "./projects/*/"
+        }
+    ]
+}
