@@ -1,0 +1,4 @@
+!.eslintrc.js
+!vue.config.js
+
+node_modules/

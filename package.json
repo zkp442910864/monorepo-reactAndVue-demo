@@ -2,6 +2,7 @@
     "name": "root",
     "private": true,
     "devDependencies": {
+        "fast-glob": "^3.2.7",
         "lerna": "^4.0.0"
     },
     "workspaces": {

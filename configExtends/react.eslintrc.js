@@ -1,14 +1,4 @@
 module.exports = {
-    parser: 'babel-eslint',
-    extends: ['airbnb', 'prettier', 'plugin:compat/recommended'],
-    env: {
-        browser: true,
-        node: true,
-        es6: true,
-        mocha: true,
-        jest: true,
-        jasmine: true,
-    },
     rules: {
         'react/jsx-wrap-multilines': 0,
         'react/prop-types': 0,
@@ -57,8 +47,5 @@ module.exports = {
         'no-shadow': 'off',
         quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: false}],
         'quote-props': ['error', 'as-needed'],
-    },
-    settings: {
-        polyfills: ['fetch', 'promises', 'url'],
     },
 };

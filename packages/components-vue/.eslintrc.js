@@ -7,11 +7,13 @@ module.exports = {
         'plugin:vue/essential',
         '@vue/standard',
         '@vue/typescript/recommended',
-		'../../configExtends/vue.eslintrc.js'
+        '../../configExtends/vue.eslintrc.js'
     ],
     parserOptions: {
         ecmaVersion: 2020
     },
     globals: {
+        IOBJ: true
     },
+    rules: {},
 };
