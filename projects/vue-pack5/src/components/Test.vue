@@ -6,16 +6,16 @@
 
 <script lang="ts">
 
-    import {Component, Vue, Ref} from 'vue-property-decorator';
+    import {Component, Vue} from 'vue-property-decorator';
 
     @Component
     export default class Name extends Vue {
 
-        created () {}
+        // created () {}
 
-        mounted () {}
+        // mounted () {}
 
-        activated () {}
+        // activated () {}
 
     }
 </script>

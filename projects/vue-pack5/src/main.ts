@@ -2,7 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import Antd, {message, Modal} from 'ant-design-vue';
 import moment from 'moment';
-import * as vueComponents from '@mono/components-vue';
+// import * as vueComponents from '@mono/components-vue';
 import * as utils from '@mono/common-utils';
 import '@/assets/common.less';
 
@@ -11,10 +11,10 @@ Vue.config.productionTip = false;
 Vue.use(Antd);
 
 // console.log(vueComponents);
-type TName = keyof typeof vueComponents;
-Object.keys(vueComponents).forEach((name) => {
-    Vue.component(name, vueComponents[name as TName]);
-});
+// type TName = keyof typeof vueComponents;
+// Object.keys(vueComponents).forEach((name) => {
+//     Vue.component(name, vueComponents[name as TName]);
+// });
 
 utils.utilsConfig.moment = moment;
 utils.utilsConfig.modal = Modal;
@@ -34,7 +34,7 @@ utils.ajaxConfig.loadAfter = () => ({});
 
 // utils.showLoad();
 // utils.apiGet();
-// console.log(utils);
+console.log(utils);
 
 
 // 对 vi8n 进行二次封装

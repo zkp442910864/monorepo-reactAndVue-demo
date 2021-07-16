@@ -5,9 +5,13 @@
             <span class="iconfont icon-sousuo m-r-5"></span>
             <span>搜索</span>
         </button>
+        <a-button type="">123</a-button>
+        <a-table></a-table>
+        <a-checkbox></a-checkbox>
+        <asd/>
         <div class="asdf">123123</div>
-        <!-- <MyCheckbox >123</MyCheckbox> -->
-        <!-- <my-checkbox >123</my-checkbox> -->
+        <MyCheckbox v-model="params.as">123</MyCheckbox>
+        <!-- <my-checkbox v-model="params.as">123</my-checkbox> -->
         <!-- <my-checkbox ></my-checkbox> -->
         <!-- <my-checkbox :trueValue="" ></my-checkbox> -->
     </div>
@@ -16,21 +20,14 @@
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
     import {MyCheckbox} from '@mono/components-vue';
-    import Test from '@/components/Test.vue';
-    // import a from '@/views/q';
-    // const b = require('./views/q');
+    // import * as com from '@mono/components-vue/dist/com.common.js';
 
-    // console.log(b);
-
-
-    // b.fun();
-    // b.fun();
-    // console.log(b, a, b.fun === a.fun);
+    // console.log(com);
 
     @Component({
         components: {
-            MyCheckbox,
-            Test
+            MyCheckbox
+            // MyCheckbox: com.MyCheckbox,
         }
     })
     export default class App extends Vue {

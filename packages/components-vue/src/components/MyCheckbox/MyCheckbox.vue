@@ -11,7 +11,7 @@
      * https://www.antdv.com/components/checkbox-cn/
      */
 
-    import {Component, Vue, Model, Watch, Emit, Prop} from 'vue-property-decorator';
+    import {Component, Vue, Model, Watch, Prop} from 'vue-property-decorator';
 
     @Component
     export default class MyCheckbox extends Vue {
@@ -44,9 +44,6 @@
             // utils.toast('MyCheckbox');
         }
 
-        mounted () {}
-
-        activated () {}
 
     }
 </script>
