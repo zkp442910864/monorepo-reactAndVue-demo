@@ -1,4 +1,4 @@
 !.eslintrc.js
 !vue.config.js
-
+dist
 node_modules/
