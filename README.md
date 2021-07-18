@@ -1,6 +1,3 @@
 # monorepo-reactAndVue-demo
 
-
-https://zhuanlan.zhihu.com/p/352437367
-
-https://pnpm.io/zh/
+使用 lerna + yarn 做工作空间的 demo
