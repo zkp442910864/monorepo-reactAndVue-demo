@@ -1,8 +1,7 @@
 # monorepo-reactAndVue-demo
 
 
-### 关于monorepo
->参考资料<br>
+### 关于monorepo 参考资料
 >pnpm版本<br>
 >>[pnpm 资料](https://zhuanlan.zhihu.com/p/352437367)<br>
 >>[pnpm 官网](https://pnpm.io/zh/)
