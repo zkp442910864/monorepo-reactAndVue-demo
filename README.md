@@ -25,6 +25,8 @@
 ```
     只能用pnpm ，用yarn 和npm 都是不一样的效果
 
+    如果有子模块记得先拉取代码
+
     npm install -g pnpm
 
     安装依赖并进行关联: pnpm install
