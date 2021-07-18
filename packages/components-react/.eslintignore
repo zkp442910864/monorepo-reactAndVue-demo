@@ -1,1 +1,5 @@
-/functions/mock
+!.eslintrc.js
+!.storybook
+
+dist
+node_modules/

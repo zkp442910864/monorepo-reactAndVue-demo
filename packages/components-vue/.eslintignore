@@ -1,4 +1,5 @@
 !.eslintrc.js
+!.storybook
 !vue.config.js
 dist
 node_modules/

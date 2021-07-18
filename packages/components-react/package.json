@@ -20,11 +20,14 @@
         "generate-mock": "node ./scripts/generateMock.js",
         "test:component": "umi test ./src/components",
         "test:all": "node ./tests/run-tests.js",
-        "prettier": "prettier --write ./src/**/**/**/*"
+        "prettier": "prettier --write ./src/**/**/**/*",
+        "storybook": "start-storybook -p 6007",
+		"build-storybook": "build-storybook"
     },
     "dependencies": {
         "@antv/data-set": "^0.9.0",
         "@babel/runtime": "^7.0.0",
+        "@mono/common-utils": "workspace:^1.0.0",
         "antd": "^3.9.0",
         "bizcharts": "^3.1.10",
         "bizcharts-plugin-slider": "^2.0.3",
@@ -50,7 +53,8 @@
         "react-fittext": "^1.0.0",
         "react-router-config": "^1.0.0-beta.4",
         "react-router-dom": "^4.3.1",
-        "umi": "^2.0.0-beta.10"
+        "umi": "^2.0.0-beta.10",
+        "umi-plugin-locale": "^2.11.6"
     },
     "devDependencies": {
         "@types/react": "^16.4.11",
@@ -79,7 +83,13 @@
         "stylelint": "^9.4.0",
         "stylelint-config-prettier": "^4.0.0",
         "stylelint-config-standard": "^18.0.0",
-        "umi-plugin-react": "^1.0.0-beta.10"
+        "umi-plugin-react": "^1.0.0-beta.10",
+        "@babel/core": "^7.14.6",
+		"@storybook/addon-actions": "^6.3.2",
+		"@storybook/addon-essentials": "^6.3.2",
+		"@storybook/addon-links": "^6.3.2",
+		"@storybook/react": "^6.3.2",
+		"babel-loader": "^8.2.2"
     },
     "optionalDependencies": {
         "puppeteer": "^1.6.0"
