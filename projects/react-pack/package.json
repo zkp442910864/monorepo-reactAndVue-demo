@@ -1,9 +1,8 @@
 {
-    "name": "@mono/components-react",
+    "name": "react-pack",
     "version": "2.0.0",
     "description": "An out-of-box UI solution for enterprise applications",
     "private": true,
-    "main": "src/componentsNew/index.ts",
     "scripts": {
         "precommit": "npm run lint-staged",
         "presite": "npm run generate-mock && cd functions && npm install",
@@ -23,12 +22,13 @@
         "test:all": "node ./tests/run-tests.js",
         "prettier": "prettier --write ./src/**/**/**/*",
         "storybook": "start-storybook -p 6007",
-		"build-storybook": "build-storybook"
+        "build-storybook": "build-storybook"
     },
     "dependencies": {
         "@antv/data-set": "^0.9.0",
         "@babel/runtime": "^7.0.0",
         "@mono/common-utils": "workspace:^1.0.0",
+        "@mono/components-react": "workspace:^2.0.0",
         "antd": "^3.9.0",
         "bizcharts": "^3.1.10",
         "bizcharts-plugin-slider": "^2.0.3",
@@ -58,11 +58,17 @@
         "umi-plugin-locale": "^2.11.6"
     },
     "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@storybook/addon-actions": "^6.3.2",
+        "@storybook/addon-essentials": "^6.3.2",
+        "@storybook/addon-links": "^6.3.2",
+        "@storybook/react": "^6.3.2",
         "@types/react": "^16.4.11",
         "@types/react-dom": "^16.0.6",
         "antd-pro-merge-less": "^0.0.9",
         "antd-pro-theme-webpack-plugin": "^1.1.8",
         "babel-eslint": "^9.0.0",
+        "babel-loader": "^8.2.2",
         "cross-env": "^5.1.1",
         "cross-port-killer": "^1.0.1",
         "enzyme": "^3.4.4",
@@ -84,13 +90,7 @@
         "stylelint": "^9.4.0",
         "stylelint-config-prettier": "^4.0.0",
         "stylelint-config-standard": "^18.0.0",
-        "umi-plugin-react": "^1.0.0-beta.10",
-        "@babel/core": "^7.14.6",
-		"@storybook/addon-actions": "^6.3.2",
-		"@storybook/addon-essentials": "^6.3.2",
-		"@storybook/addon-links": "^6.3.2",
-		"@storybook/react": "^6.3.2",
-		"babel-loader": "^8.2.2"
+        "umi-plugin-react": "^1.0.0-beta.10"
     },
     "optionalDependencies": {
         "puppeteer": "^1.6.0"

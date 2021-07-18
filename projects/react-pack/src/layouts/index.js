@@ -6,7 +6,7 @@ import DocumentTitle from 'react-document-title';
 import * as utils from '@mono/common-utils';
 import 'antd/dist/antd.css';
 
-console.log(utils);
+// console.log(utils);
 window.utils = utils;
 utils.utilsConfig.moment = moment;
 utils.utilsConfig.modal = Modal;
