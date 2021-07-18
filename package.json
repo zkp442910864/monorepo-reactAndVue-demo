@@ -1,6 +1,10 @@
 {
     "name": "root",
     "private": true,
+    "scripts": {
+        "story-react": "cd packages/components-react && pnpm run storybook",
+        "story-vue": "cd packages/components-vue && pnpm run storybook"
+    },
     "devDependencies": {
         "fast-glob": "^3.2.7"
     }
