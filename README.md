@@ -5,7 +5,7 @@
 >参考资料<br>
 >pnpm版本<br>
 >>[pnpm 资料](https://zhuanlan.zhihu.com/p/352437367)<br>
->>[pnpm 官网](https://pnpm.io/zh/)<br>
+>>[pnpm 官网](https://pnpm.io/zh/)
 
 >yarn版本 或 npm版本<br>
 >>[monorepo 资料](https://www.zhihu.com/question/318476028/answer/1895685159)<br>
