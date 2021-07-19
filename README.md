@@ -56,12 +56,12 @@
 
 ### 报错处理
 ```
-    pnpm 不支持幽灵依赖（好像是这样说），都要显示的在package.json 里安装上这个依赖才能正常使用
+    pnpm 不支持幽灵依赖（好像是这样说），都要在package.json 里安装上这个依赖才能正常使用
 ```
 
 ### 包名及引入
 ```
-    本地依赖安装，项目目录下执行 pnpm add 包名 （和安装依赖一样，区别是package.json 版本号显示会不一样）
+    本地依赖安装，项目目录下执行 pnpm add 包名 （和安装依赖一样，区别是package.json 版本号显示方式不一样）
 
     package.json (例子: packages\common-utils\package.json)
         设置包名: name (例子: @mono/项目文件名，不要出现重复的名称)
