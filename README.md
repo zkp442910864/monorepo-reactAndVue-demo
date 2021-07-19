@@ -1,5 +1,6 @@
 # monorepo-reactAndVue-demo
 
+[个人编写习惯（代码规范）](./normalize.md)<br>
 
 ### 关于monorepo 参考资料
 >pnpm版本<br>
