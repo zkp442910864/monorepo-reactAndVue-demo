@@ -41,6 +41,19 @@
     然后到对应的项目执行运行命令
 ```
 
+### 另一种本地项目引用方式 pnpm link
+[pnpm link](https://pnpm.io/zh/cli/link)<br>
+```
+    不想使用工作空间，可以通过另一种方式使用公共组件/库。
+
+    库目录下执行: pnpm link --dir E:\demo\react\pro-v2
+        "E:\demo\react\pro-v2" 项目本地地址，成功后 在node_modules 会多了该项目(公共组件/库)
+
+    如果出现找不到模块试试在package.json 在这字段里optionalDependencies 加入声明
+
+    npm 和yarn 都有这功能，看看文档应该就可以了
+```
+
 ### 报错处理
 ```
     pnpm 不支持幽灵依赖（好像是这样说），都要显示的在package.json 里安装上这个依赖才能正常使用
